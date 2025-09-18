@@ -1,0 +1,88 @@
+{
+  "animais": [
+    {
+      "id": "A1",
+      "nome": "Leão",
+      "especie": "Panthera leo",
+      "imagem": "leão.jpeg"
+    },
+    {
+      "id": "A2",
+      "nome": "Elefante",
+      "especie": "Loxodonta africana",
+      "imagem": "elefante.jpeg"
+    },
+    {
+      "id": "A3",
+      "nome": "Pinguim Imperador",
+      "especie": "Aptenodytes forsteri",
+      "imagem": "pinguim.jpeg"
+    },
+    {
+      "id": "A4",
+      "nome": "Girafa",
+      "especie": "Giraffa camelopardalis",
+      "imagem": "girafa.jpeg"
+    }
+  ],
+  "livros": [
+    {
+      "id": "L1",
+      "titulo": "O Senhor dos Anéis",
+      "autor": "J.R.R. Tolkien",
+      "ano": 1954,
+      "capa": "o senhor.jpeg"
+    },
+    {
+      "id": "L2",
+      "titulo": "1984",
+      "autor": "George Orwell",
+      "ano": 1949,
+      "capa": "1984.jpeg"
+    },
+    {
+      "id": "L3",
+      "titulo": "Dom Quixote",
+      "autor": "Miguel de Cervantes",
+      "ano": 1605,
+      "capa": "domQuixote.jpeg"
+    },
+    {
+      "id": "L4",
+      "titulo": "Fahrenheit 451",
+      "autor": "Ray Bradbury",
+      "ano": 1953,
+      "capa": "Fahrenheit 451.png"
+    }
+  ],
+  "pessoas": [
+    {
+      "id": "P1",
+      "nome": "Marie Curie",
+      "nascimento": "1867-11-07",
+      "area": "Física e Química",
+      "foto": "marieCurie.jpeg"
+    },
+    {
+      "id": "P2",
+      "nome": "Albert Einstein",
+      "nascimento": "1879-03-14",
+      "area": "Física",
+      "foto": "Albert Einstein.jpeg"
+    },
+    {
+      "id": "P3",
+      "nome": "Ada Lovelace",
+      "nascimento": "1815-12-10",
+      "area": "Matemática e Computação",
+      "foto": "Ada Lovelace.jpeg"
+    },
+    {
+      "id": "P4",
+      "nome": "Isaac Newton",
+      "nascimento": "1643-01-04",
+      "area": "Física e Matemática",
+      "foto": "Isaac Newton.jpeg"
+    }
+  ]
+}

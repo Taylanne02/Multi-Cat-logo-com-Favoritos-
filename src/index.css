@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1;
+    font-family: Inter, system-ui, Arial, sans-serif;
+    scroll-behavior: smooth;
+    box-shadow: #000000;
+  }
+  
+  body {
+    background: #F8FAFC;
+    color: #0F172A;
+  }
+  
+  .app-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .card-img {
+    width: 220px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  .card {
+    border: 1px solid rgb(145, 169, 207);
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 0.5rem;
+    min-width: 260px;
+    box-shadow: 0 4px 8px #cc0b0b1a; 
+    transition: transform 0.2s, box-shadow 0.2s; 
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px #1a3f77;
+  }
+  
+  
+  .grid {
+    display: flex;
+    gap: 2rem;
+    justify-content: lef;
+  }
+
+  nav .app-container {
+  text-align: right;
+}
+
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 2rem;       
+    padding: 0.5rem 1rem;     
+    font-weight: 500;         
+    border-radius: 0.5rem;    
+    transition: background 0.5s, color 0.5s; 
+  }
+  
+  nav a:hover {
+    background-color: rgba(218, 218, 218, 0.2); 
+    color: #ffffff;                             
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 0.5rem 0.9rem;
+    border-radius: 10px;
+    border: none;
+    background: #000000;
+    color: white;
+  }
+  
