@@ -6,7 +6,7 @@ export default function Favoritos() {
   return (
     <div className="app-container">
       <h2>Meus favoritos</h2>
-      {favorites.length === 0 ? <p>Nenhum card salvo</p> : (
+      {favorites.length === 0 ? <p>Nenhum card foi salvo</p> : (
         <div className="grid">
           {favorites.map(f => <Card key={f.id} item={f} />)}
         </div>
